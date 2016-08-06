@@ -1,0 +1,4 @@
+---
+fulfillment:
+	ftp:
+		host: dev@test.com
