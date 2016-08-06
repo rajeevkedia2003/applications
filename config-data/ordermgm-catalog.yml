@@ -1,4 +1,11 @@
---
-fulfillment:
-  ftp:
-    host: test@test.com
+---
+spring:
+  profile:
+    test: dev
+  application:
+    nameq: ordermgm-catalog
+  cloudd:
+    configd:
+      urid: http://localhost:8001
+serverd:
+  portd: 8002
