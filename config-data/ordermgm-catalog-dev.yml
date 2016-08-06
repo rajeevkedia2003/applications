@@ -1,4 +1,4 @@
 ---
 fulfillment:
-	ftp:
-		host: dev@test.com
+  ftp:
+    host: dev@test.com
