@@ -1,0 +1,14 @@
+---
+eureka:
+  server-1:
+    host: localhost
+    port: 8011
+  server-2:
+    host: localhost
+    port: 8012
+  server-3:
+    host: localhost
+    port: 8013
+  server:
+	ordermgm:
+      cluster: http://${eureka.server-1.host}:${eureka.server-1.port}/eureka/,http://${eureka.server-2.host}:${eureka.server-2.port}/eureka/,http://${eureka.server-3.host}:${eureka.server-3.port}/eureka/

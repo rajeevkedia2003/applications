@@ -1,0 +1,5 @@
+---
+eureka:
+  server:
+    host: localhost
+	port: 8011
