@@ -2,4 +2,4 @@
 eureka:
   server:
     host: localhost
-    port: 8011
+    port: 8010
