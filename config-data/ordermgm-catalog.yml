@@ -3,3 +3,5 @@ fulfillment:
   ftp:
     host: default@test.com
 catalog:
+  server:    
+    port: 8002
