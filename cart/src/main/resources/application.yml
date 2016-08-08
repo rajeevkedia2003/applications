@@ -1,0 +1,7 @@
+---
+server:
+  port: ${cart.server.port}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${eureka.server.ordermgm.defaultZone}

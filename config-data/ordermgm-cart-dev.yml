@@ -1,0 +1,4 @@
+---
+fulfillment:
+  ftp:
+    host: devcart@test.com
