@@ -1,0 +1,7 @@
+---
+server:
+  port: ${catalog.server.port}
+eureka:
+  client:
+    service-url:
+      defaultZone: ${eureka.server.ordermgm.cluster}

@@ -2,3 +2,4 @@
 fulfillment:
   ftp:
     host: default@test.com
+catalog:
