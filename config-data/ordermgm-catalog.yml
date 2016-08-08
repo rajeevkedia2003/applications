@@ -8,4 +8,4 @@ catalog:
 eureka:
   server:
     ordermgm:
-	  defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/
+      defaultZone: http://localhost:8011/eureka/,http://localhost:8012/eureka/
